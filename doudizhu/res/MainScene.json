@@ -1,0 +1,221 @@
+{
+  "ID": "542e8b16-d0ef-4a31-9a55-1cbf247b215b",
+  "Version": "2.2.1.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "PrePosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "PreSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "assert/gameStart/mainBg.jpg"
+            },
+            "Tag": 4,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -32.0,
+            "RightMargin": -32.0,
+            "TopMargin": -64.0,
+            "BottomMargin": -64.0,
+            "ActionTag": -1336952924,
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 0.95,
+              "ScaleY": 0.95
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 1024.0,
+              "Y": 768.0
+            },
+            "FrameEvent": "",
+            "Name": "start_bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_start_game.png",
+              "Plist": "assert/gameStart/gameStart0.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_start_game.png",
+              "Plist": "assert/gameStart/gameStart0.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_start_game.png",
+              "Plist": "assert/gameStart/gameStart0.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 387,
+            "Scale9Height": 143,
+            "TouchEnable": true,
+            "Tag": 5,
+            "PrePosition": {
+              "X": 0.8198,
+              "Y": 0.3825
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.125
+            },
+            "LeftMargin": 687.0,
+            "RightMargin": 73.0,
+            "TopMargin": 355.1841,
+            "BottomMargin": 204.8159,
+            "ActionTag": -873134390,
+            "Position": {
+              "X": 787.0,
+              "Y": 244.8159
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 200.0,
+              "Y": 80.0
+            },
+            "FrameEvent": "",
+            "Name": "startGame",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_more_games.png",
+              "Plist": "assert/gameStart/gameStart0.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_more_games.png",
+              "Plist": "assert/gameStart/gameStart0.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_more_games.png",
+              "Plist": "assert/gameStart/gameStart0.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 387,
+            "Scale9Height": 143,
+            "TouchEnable": true,
+            "Tag": 6,
+            "PrePosition": {
+              "X": 0.8198,
+              "Y": 0.1888
+            },
+            "PreSize": {
+              "X": 0.2083,
+              "Y": 0.125
+            },
+            "LeftMargin": 687.0,
+            "RightMargin": 73.0,
+            "TopMargin": 479.1841,
+            "BottomMargin": 80.8159,
+            "ActionTag": 326241793,
+            "Position": {
+              "X": 787.0,
+              "Y": 120.8159
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "Size": {
+              "X": 200.0,
+              "Y": 80.0
+            },
+            "FrameEvent": "",
+            "Name": "moreGame",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "AnchorPoint": {},
+        "CColor": {},
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "FrameEvent": "",
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    },
+    "CameraPosition": {
+      "ValueX": 0.0,
+      "ValueY": 5.0,
+      "ValueZ": -1.0
+    },
+    "CameraRotation": {
+      "ValueX": 0.0,
+      "ValueY": 0.0,
+      "ValueZ": 0.0
+    }
+  },
+  "Type": "Scene"
+}
